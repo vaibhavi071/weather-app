@@ -1,0 +1,164 @@
+body
+{
+    font-family:sans-serif;
+    background-image:url(cleard.jpg); 
+    transition: all 1s ease-in-out;
+    color: white;
+    background-size:cover; 
+    overflow:hidden; 
+}
+html{
+    color: white;
+}
+/* .app
+{
+    flex-direction:row;
+    min-height:100vh;
+    justify-content:center;
+    align-content:center;
+    margin-top:5%
+} */
+
+
+.box-content {
+    background: #282741c7;
+    border-radius: 17px;
+    padding: 15px;
+    text-align: center;
+    width: 52%;
+    
+}
+
+.box-content p
+{
+    margin: auto;
+}
+
+
+.search
+{
+    /* width:75%; */
+    max-width:500px;
+    justify-content:flex-start;
+    /* margin-top:5%; */
+    /* margin-bottom:3%; */
+    display:flex;
+    margin: auto;
+    flex-direction:row;
+    background-color:rgba(0,0,20,.4);
+    border-radius:20px;
+    color:grey;
+    font-size:20px;
+    font-weight:300;
+    transition:.2s ease-out;
+    overflow:hidden;
+    border:1px solid rgba(255,255,255,.6); 
+
+}
+
+.search input{
+    width:100%;
+    padding:5px 5px;
+    padding-left:20px;
+    background-color:rgba(0,0,20,.2);
+    border-radius:20px 0 0 20px;
+    color:#fff;
+    font-size:20px;
+    font-family:sans-serif;
+    font-weight:200;
+    transition:.2s ease-out;
+    /* border-right:1px solid rgba(255,255,255,.3) */
+}               
+    
+.search input:focus{
+    background-color:rgba(255, 255, 255, 0.76);
+    color:#313131
+}
+.search input:placeholder{
+    color:#000
+}
+
+.button
+{
+    background-color: transparent;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    width: 9%;
+}
+.temp h2
+{
+    display: inline;
+}
+
+.fas
+{
+    color: white;
+    /* font-size: 1.5em; */
+}
+
+
+/* .location{
+    margin-left:auto;
+    margin-right:auto;
+    text-align:right;
+    margin-top:30px
+}
+
+.location .city{
+    color:#fff;
+    font-size:32px;
+    font-weight:500;
+    margin-bottom:5px;
+    font-family:Poppins,sans-serif
+}
+.location .date{
+    color:#fff;
+    font-size:19px;
+    font-family:Montserrat,sans-serif
+} */
+/* .temp{
+    color:#fff;
+    font-size:90px;
+    font-family:Manrope,sans-serif;
+    margin:30px 0;
+    margin-top:0;
+    margin-bottom:15px;
+    padding-top:0
+} */
+/* .current .temp span{
+    font-weight:100
+}
+.current .weather
+{
+    color:#fff;
+    font-size:34px;
+    font-family:Montserrat,sans-serif;
+    margin-bottom:10px;
+    text-shadow:0 3px rgba(0,0,0,.4)
+}
+.current .hilow
+{
+    color:#fff;
+    font-size:20px;
+    font-family:Manrope,sans-serif;
+    font-weight:500
+ }
+.current .wind
+{
+    color:#fff;
+    font-size:17px;
+    font-family:Manrope,sans-serif;
+    font-weight:400
+}
+.current .humidity
+{
+    color:#fff;
+    font-size:17px;
+    font-family:Manrope,sans-serif;
+    font-weight:400
+}
+.current .humidity i
+{
+    padding-left:5px
+} */

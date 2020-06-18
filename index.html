@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+	<link rel="icon" href="icons/favicon.ico">
+	<title>WeatherApp</title>    
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/a8463feb4e.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <title>WeatherApp</title>    
+</head>
+
+<body>
+
+    <br><br><br>
+    <section id="app">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-12 col-lg-6">
+                    <div class='search'>
+                        <input type="text" id="myInput" class="input" autocomplete="off" placeholder="Search for a City..">
+                        <button class="button">
+                            <i class="fas fa-search-location"></i>
+                        </button>        
+                    </div> 
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <br><br><br><br>
+    <section id="weather">
+        <div class="container box-content">
+            <div class="row justify-content-center">
+                <div class="icon col-md-4">
+                    <p > </p>
+                </div>
+            </div>
+            <div class="row ">
+                <div class="temp col-md-6">
+                    <p>Temperature</p>
+                
+                </div>
+                <br><br><br>
+                <div class="city col-md-6">
+                    <p>City</p> 
+                    <hr color="white" >
+                    
+            </div>
+            </div>
+
+            <div class="row">
+                <div class="desc col-md-6">
+                    <p>-</p>
+                </div>
+                <br><br><br>
+                <div class="date_today col-md-6">
+                    <p class="text">Date</p>
+                </div>
+
+            </div class="row">
+                <div class="wind_speed col-md-6">
+                    <span>Wind Speed : </span> <span class="text"></span>
+                </div>
+                <br><br>
+                <div class="humidity col-md-6">
+                    <span>Humidity : </span> <span class="text"></span>
+                </div>
+                
+            <div>
+
+            </div>
+        </div>
+    </section>
+<script src="index.js"></script>
+</body>
+</html>
